@@ -1,17 +1,18 @@
-fieldmaps
-=========
+.. include:: ../README.rst
+   :end-before: end-introduction-marker
 
-Fieldmaps is a Python3 package for visualizing geographic data. It provides a
-high-level API for plotting spatially cohesive data represented by raster,
-polygon and point geometries.
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    usage
    examples
    api
+
+.. include:: ../README.rst
+   :start-after: end-introduction-marker
 
 
 .. Indices and tables

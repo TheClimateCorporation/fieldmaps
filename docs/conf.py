@@ -78,15 +78,21 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-
-#html_theme = 'sphinx_rtd_theme'
-html_theme = 'bizstyle'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#
-# html_theme_options = {}
+html_theme_options = {
+    'github_banner': False,
+    'github_button': True,
+    'github_repo': project,
+    'github_user': 'TheClimateCorporation',
+    'fixed_sidebar': True,
+    'sidebar_collapse': False,
+}
+html_show_sourcelink = True
+html_show_copyright = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -102,6 +108,8 @@ html_static_path = []
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+
+add_function_parentheses = False
 
 
 # -- Options for HTMLHelp output ---------------------------------------------

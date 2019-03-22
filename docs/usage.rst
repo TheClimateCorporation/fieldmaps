@@ -21,13 +21,13 @@ and categorical types.
      - Polygon
      - Point
    * - Continuous
-     - ``raster_cont``
-     - ``poly_cont``
-     - ``point_cont``
+     - :func:`~fieldmaps.raster_cont`
+     - :func:`~fieldmaps.poly_cont`
+     - :func:`~fieldmaps.point_cont`
    * - Discrete/Categorical
-     - ``raster_discrete``
-     - ``poly_discrete``
-     - ``point_discrete``
+     - :func:`~fieldmaps.raster_discrete`
+     - :func:`~fieldmaps.poly_discrete`
+     - :func:`~fieldmaps.point_discrete`
 
 See :ref:`examples` for how to use the mapping functions.
 
